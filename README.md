@@ -1,68 +1,63 @@
-# TrainReservationSystem
-A console-based application designed to manage train reservations, showcasing core features of Object-Oriented Programming (OOP) in C++. This system allows users to view and update train details, reserve and cancel tickets, and check reservation status. It employs classes to encapsulate train and ticket information.
-
 # Train Reservation System
 
-A console-based Train Reservation System developed in C++ to demonstrate Object-Oriented Programming (OOP) concepts. This project allows users to manage train reservations by performing tasks such as viewing and updating train details, reserving and canceling tickets, and checking reservation status.
+A console-based Train Reservation System developed in C++ to demonstrate Object-Oriented Programming (OOP) principles. This project allows users to manage train reservations by viewing and updating train details, reserving and canceling tickets, and checking reservation statuses.
 
 ## Features
 
-- **Train Details Management**: View and update train information including seat availability and route details.
-- **Ticket Reservation**: Reserve tickets for different classes and receive reservation numbers.
-- **Ticket Cancellation**: Cancel previously reserved tickets and update the system.
-- **Status Check**: Display reservation status for a given reservation number.
+- **Train Details Management**: View and update information about trains including seat availability and routes.
+- **Ticket Reservation**: Reserve tickets for different classes and receive a reservation number.
+- **Ticket Cancellation**: Cancel previously made reservations and update the system records.
+- **Reservation Status Check**: Retrieve and display the status of a reservation using a reservation number.
 
 ## Getting Started
 
 ### Prerequisites
 
 - C++ compiler (e.g., g++)
-- Basic understanding of C++ and OOP principles
+- Basic understanding of C++ and Object-Oriented Programming concepts
 
 ### Compilation
 
-1. Navigate to the project directory:
+1. Clone the repository:
 
     ```bash
-    cd /path/to/your/project
+    git clone https://github.com/Chandanmajhi7/TrainReservationSystem.git
+    cd TrainReservationSystem
     ```
 
 2. Compile the code using g++:
 
     ```bash
-    g++ lib.cpp -o lib
+    g++ MyTrain.cpp -o TrainReservationSystem
     ```
 
 3. Run the executable:
 
     ```bash
-    ./lib
+    ./TrainReservationSystem
     ```
 
 ### Usage
 
-1. **View Train Details**: Select option `1` to display current train information.
-2. **Update Train Details**: Select option `2` to input new train details.
-3. **Reserve a Ticket**: Select option `3` to reserve a ticket and enter your details.
-4. **Cancel a Ticket**: Select option `4` to cancel a reservation by providing the reservation number.
-5. **Check Ticket Status**: Select option `5` to view the status of a reservation.
-6. **Exit**: Select option `6` to exit the application.
+1. **View Train Details**: Choose option `1` to display current train information.
+2. **Update Train Details**: Choose option `2` to input or modify train details.
+3. **Reserve a Ticket**: Choose option `3` to reserve a ticket, providing necessary details.
+4. **Cancel a Ticket**: Choose option `4` to cancel a reservation by entering the reservation number.
+5. **Check Ticket Status**: Choose option `5` to check the status of a reservation using the reservation number.
+6. **Exit**: Choose option `6` to exit the application.
 
 ## File Format
 
-- **Train1.dat**: Stores train details.
+- **Train1.dat**: Stores information about trains.
 - **Ticket1.dat**: Stores reservation details.
 
 ## Example
 
-1. Start the application and choose an option from the menu.
-2. Follow the prompts to input or retrieve information.
+1. Launch the application and select an option from the menu.
+2. Follow the prompts to enter or retrieve information.
 
 ## Contribution
 
-Feel free to contribute to this project by submitting issues or pull requests. For any questions, please contact the project maintainer.
+Contributions are welcome! Please submit issues or pull requests via the [GitHub repository](https://github.com/Chandanmajhi7/TrainReservationSystem). For any questions, contact the project maintainer.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
