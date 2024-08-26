@@ -56,8 +56,5 @@ A console-based Train Reservation System developed in C++ to demonstrate Object-
 1. Launch the application and select an option from the menu.
 2. Follow the prompts to enter or retrieve information.
 
-## Contribution
-
-Contributions are welcome! Please submit issues or pull requests via the [GitHub repository](https://github.com/Chandanmajhi7/TrainReservationSystem). For any questions, contact the project maintainer.
 
 
