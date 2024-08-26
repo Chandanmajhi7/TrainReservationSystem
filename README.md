@@ -51,10 +51,5 @@ A console-based Train Reservation System developed in C++ to demonstrate Object-
 - **Train1.dat**: Stores information about trains.
 - **Ticket1.dat**: Stores reservation details.
 
-## Example
-
-1. Launch the application and select an option from the menu.
-2. Follow the prompts to enter or retrieve information.
-
 
 
